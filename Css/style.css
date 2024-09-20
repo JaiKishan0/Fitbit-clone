@@ -1,0 +1,262 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #0a74da;
+}
+
+/* Promo Section */
+.promo-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9fafc;
+    background-image: url('pics/2watch.png'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.promo-content {
+    max-width: 50%;
+}
+
+.promo-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.promo-link {
+    display: block;
+    margin-top: 10px;
+    color: #0a74da;
+    font-weight: bold;
+    text-decoration: none;
+    transition: text-decoration 0.3s;
+}
+
+.promo-link:hover {
+    text-decoration: underline;
+}
+
+.promo-image {
+    max-width: 50%;
+    overflow: hidden;
+}
+
+.promo-image img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.promo-image img:hover {
+    transform: scale(1.03); /* Reduced zoom effect */
+}
+/* Navigation Dropdowns */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #0a74da;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show Dropdown on Hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Products Section */
+.products {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.product {
+    text-align: center;
+    width: 30%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    transition: opacity 0.3s;
+}
+
+.product img:hover {
+    opacity: 0.8;
+}
+
+.product h2 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.product p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* App Promo Section */
+.app-promo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9fafc;
+}
+
+.app-info {
+    max-width: 50%;
+}
+
+.app-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.learn-more {
+    display: block;
+    margin-top: 20px;
+    color: #0a74da;
+    font-weight: bold;
+    text-decoration: none;
+    transition: text-decoration 0.3s;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+
+.app-image img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.app-image img:hover {
+    transform: scale(1.05);
+}
+
+/* Advertisement Section */
+.adv {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.adv1 img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.adv1 img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #0a74da;
+    color: white;
+    text-align: center;
+}
+
+footer .social a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: text-decoration 0.3s;
+}
+
+footer .social a:hover {
+    text-decoration: underline;
+}
